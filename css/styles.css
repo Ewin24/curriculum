@@ -1,0 +1,23 @@
+.container {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 25%, 25%, 25%, ;
+}
+
+.col1 {
+    background-color: #ebe6ea;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.col2 {
+    background-color: #e4c5c4;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.col3 {
+    background-color: #c8ad8d;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
