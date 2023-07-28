@@ -172,3 +172,9 @@
 .experiencia li:last-child {
     margin-bottom: 15px;
 }
+
+a{
+    text-decoration: none;
+    color: rgb(0, 98, 255);
+}
+
