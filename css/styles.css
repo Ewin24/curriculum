@@ -3,16 +3,13 @@
 
   body {
       font-family: 'Poppins', sans-serif;
-  }
-
-  body {
-      font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
   }
 
   .container {
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-between;
       margin: 20px;
   }
@@ -156,25 +153,24 @@
 
   /* EXPERIENCIA */
 
-.experiencia ul {
-    list-style: none;
-    padding: 0;
-}
+  .experiencia ul {
+      list-style: none;
+      padding: 0;
+  }
 
-.experiencia li {
-    margin-bottom: 10px;
-}
+  .experiencia li {
+      margin-bottom: 10px;
+  }
 
-.experiencia li:nth-child(odd) {
-    font-weight: bold;
-}
+  .experiencia li:nth-child(odd) {
+      font-weight: bold;
+  }
 
-.experiencia li:last-child {
-    margin-bottom: 15px;
-}
+  .experiencia li:last-child {
+      margin-bottom: 15px;
+  }
 
-a{
-    text-decoration: none;
-    color: rgb(0, 98, 255);
-}
-
+  a {
+      text-decoration: none;
+      color: rgb(0, 98, 255);
+  }
